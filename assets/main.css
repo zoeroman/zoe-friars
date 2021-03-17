@@ -1,0 +1,287 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  body {
+    font-size: 40px;
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  body {
+    font-size: 40px;
+  }
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 50px;
+  }
+}
+
+body {
+  background: white;
+  font-family: arial;
+}
+
+p {
+  font: arial;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.title {
+ margin-top: 60px;
+ transition: all 1s ease;
+}
+
+.subtext {
+  font-size: 2vw;
+  font-style: italic;
+}
+
+.section-1 {
+
+}
+
+.zoe-roman {
+  background-color: #3DBD27;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+.zoe-roman:hover {
+  cursor: pointer;
+  background: linear-gradient(270deg, #ff00f5, #ffd736, #f2a4ff, #6bf51d, #06e854);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: colors 2s ease infinite;
+  -moz-animation: colors 2s ease infinite;
+  animation: colors 2s ease infinite;
+}
+
+    @-webkit-keyframes colors {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes colors {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes colors {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+.grow {
+  font-style: italic;
+}
+
+.grow:hover {
+  transition: 1s ease-in-out;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.smile {
+ margin-top: 60px;
+ transition: all 0.5s ease;
+}
+
+.smile:hover {
+  cursor: pointer;
+  background: white;
+  background-size: 1000% 1000%;
+  -webkit-transform: rotate(180deg) scale(2);
+  transform: rotate(180deg) scale(2);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 180px;
+}
+
+.img1 {
+  cursor: url(../assets/e1.png), auto;
+}
+
+.img2 {
+  cursor: url(../assets/e2.png), auto;
+}
+
+.img3 {
+  cursor: url(../assets/e3.png), auto;
+}
+
+.img4 {
+  cursor: url(../assets/e4.png), auto;
+}
+
+.img5 {
+  cursor: url(../assets/e5.png), auto;
+}
+
+.img6 {
+  cursor: url(../assets/e6.png), auto;
+}
+
+.img7 {
+  cursor: url(../assets/e7.png), auto;
+}
+
+.img8 {
+  cursor: url(../assets/e8.png), auto;
+}
+
+.img9 {
+  cursor: url(../assets/e9.png), auto;
+}
+
+.img10 {
+  cursor: url(../assets/e10.png), auto;
+}
+
+.img11 {
+  cursor: url(../assets/e11.png), auto;
+}
+
+.img12 {
+  cursor: url(../assets/e12.png), auto;
+}
+
+.img13 {
+  cursor: url(../assets/e13.png), auto;
+}
+
+.img14 {
+  cursor: url(../assets/e14.png), auto;
+}
+
+.img15 {
+  cursor: url(../assets/e15.png), auto;
+}
+
+.img16 {
+  cursor: url(../assets/e16.png), auto;
+}
+
+.img17 {
+  cursor: url(../assets/e17.png), auto;
+}
+
+.img18 {
+  cursor: url(../assets/e18.png), auto;
+}
+
+.img19 {
+  cursor: url(../assets/e19.png), auto;
+}
+
+.img20 {
+  cursor: url(../assets/e20.png), auto;
+}
+
+.img21 {
+  cursor: url(../assets/e21.png), auto;
+}
+
+.img22 {
+  cursor: url(../assets/e22.png), auto;
+}
+
+.img23 {
+  cursor: url(../assets/e23.png), auto;
+}
+
+.img24 {
+  cursor: url(../assets/e24.png), auto;
+}
+
+.img25 {
+  cursor: url(../assets/e25.png), auto;
+}
+
+.img26 {
+  cursor: url(../assets/e26.png), auto;
+}
+
+.img27 {
+  cursor: url(../assets/e27.png), auto;
+}
+
+.img28 {
+  cursor: url(../assets/e28.png), auto;
+}
+
+.img29 {
+  cursor: url(../assets/e29.png), auto;
+}
+
+.img30 {
+  cursor: url(../assets/e30.png), auto;
+}
+
+.img31 {
+  cursor: url(../assets/e31.png), auto;
+}
+
+.img32 {
+  cursor: url(../assets/e32.png), auto;
+}
+
+.img33 {
+  cursor: url(../assets/e33.png), auto;
+}
+
+.img34 {
+  cursor: url(../assets/e34.png), auto;
+}
+
+.img35 {
+  cursor: url(../assets/e35.png), auto;
+}
+
+.img36 {
+  cursor: url(../assets/e36.png), auto;
+}
+
+.img37 {
+  cursor: url(../assets/e37.png), auto;
+}
+
+.img38 {
+  cursor: url(../assets/e38.png), auto;
+}
+
+.img30 {
+  cursor: url(../assets/e6.png), auto;
+}
+
+.img31 {
+  cursor: url(../assets/e7.png), auto;
+}
+
+.img32 {
+  cursor: url(../assets/e8.png), auto;
+}
