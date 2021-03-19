@@ -35,13 +35,21 @@ p {
   text-align: center;
 }
 
-iframe {
-  margin-left: 30%;
+.section {
+  text-align: center;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 100%;
+  background: white;
 }
 
 .title {
  margin-top: 60px;
  transition: all 3s ease;
+ font-size: 5vw;
 }
 
 .subtext {
@@ -50,10 +58,11 @@ iframe {
 }
 
 .zoe-roman {
-  background-color: #3DBD27;
+  background-color: #f2a4ff;
   -webkit-animation: none;
   -moz-animation: none;
   animation: none;
+  text-decoration: underline;
 }
 
 .zoe-roman:hover {
@@ -90,19 +99,6 @@ iframe {
   transition: 1s ease-in-out;
   cursor: pointer;
   font-size: 2em;
-}
-
-.smile {
- margin-top: 60px;
- transition: all 0.5s ease;
-}
-
-.smile:hover {
-  cursor: pointer;
-  background: white;
-  background-size: 1000% 1000%;
-  -webkit-transform: rotate(180deg) scale(2);
-  transform: rotate(180deg) scale(2);
 }
 
 .row {
